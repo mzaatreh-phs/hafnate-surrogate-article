@@ -1,0 +1,19 @@
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.spl
+*.synctex.gz
+
+# Manuscript drafts are kept local only, not on GitHub
+main.tex
+main.pdf
+supplementary.tex
+supplementary.pdf
+references.bib
+figures/
+reviews/
+provenance/
