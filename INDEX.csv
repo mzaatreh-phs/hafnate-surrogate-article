@@ -26,11 +26,13 @@ validation,stats_reanalysis_20261002,included,
 validation,highE_extension_20261003,included,Extension of the study to 15 MeV: plan (2026-10-03)
 validation,geant4_surrogate_comparison_20261006,included,
 validation,deep_profile_20261007,"included, also in companion","Deep HEH1 study, 0.1–15 MeV and 1–20 mfp: plan and recovery notes (written 2026-10-07)"
-validation,penred_kedge_20261007,companion archive,"Independent-code check of the K-edge window: PenRed (PENELOPE 2018 physics), 2026-10-07"
+validation,penred_kedge_20261007,"included, also in companion","Independent-code check of the K-edge window: PenRed (PENELOPE 2018 physics), 2026-10-07"
 validation,physics_existing_20261007,"included, also in companion","Physics from existing Geant4 outputs, 0.1-15 MeV (no new transport)"
 validation,blind_esgyp_20261008,included,"Blind test results, HEH_ESGYP and HEH_LNTTL (evaluated 2026-10-09)"
 validation,line_shape_20261008,companion archive,"Natural line width in the Hf K-beta / Lu K edge window (exploratory, 2026-10-08)"
 validation,nn_tests_20261010,included,
+validation,penred_pair_20261011,included,"PenRed check of one Zeq-matched K-edge pair at 0.1 MeV (exploratory, 2026-10-11)"
+validation,prospective_kedge_20261011,included,Prospective K-edge test of the frozen networks: evaluation (run once)
 validation,ai_discovery_20260909,excluded,pre-fix exploratory study
 validation,ai_discovery_20260909_v2,excluded,pre-fix exploratory study
 validation,bf_results,excluded,pre-fix labels
@@ -73,6 +75,7 @@ geant4_runs,profile_qual_20261007,companion archive,
 geant4_runs,blind_esgyp_20261008,included,
 geant4_runs,deep_labels_20261008,"included, also in companion",
 geant4_runs,heh1_profiles_20261008,"included, also in companion",
+geant4_runs,prospective_kedge_20261011,included,
 geant4_runs,corrected_mfp40_20260831,excluded,pre-fix
 geant4_runs,codex_validation_20260906,excluded,pre-fix
 geant4_runs,heh1_deep_mfp5_10_20260906,excluded,pre-fix
