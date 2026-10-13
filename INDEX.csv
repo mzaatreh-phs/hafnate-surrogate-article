@@ -33,6 +33,8 @@ validation,line_shape_20261008,companion archive,"Natural line width in the Hf K
 validation,nn_tests_20261010,included,
 validation,penred_pair_20261011,included,"PenRed check of one Zeq-matched K-edge pair at 0.1 MeV (exploratory, 2026-10-11)"
 validation,prospective_kedge_20261011,included,Prospective K-edge test of the frozen networks: evaluation (run once)
+validation,bearden_check_20261013,included,"Bearden line-energy check, 0.1 MeV, 0.5 to 4 mfp (2026-10-13)"
+validation,followup_20261013,included,"Additional calculations after the 2026-10-12 assessment (written before the runs, 2026-10-13)"
 validation,ai_discovery_20260909,excluded,pre-fix exploratory study
 validation,ai_discovery_20260909_v2,excluded,pre-fix exploratory study
 validation,bf_results,excluded,pre-fix labels
@@ -76,6 +78,8 @@ geant4_runs,blind_esgyp_20261008,"included, also in companion",
 geant4_runs,deep_labels_20261008,"included, also in companion",
 geant4_runs,heh1_profiles_20261008,"included, also in companion",
 geant4_runs,prospective_kedge_20261011,included,
+geant4_runs,followup_20261013,included,
+geant4_runs,bearden_check_20261013,included,
 geant4_runs,corrected_mfp40_20260831,excluded,pre-fix
 geant4_runs,codex_validation_20260906,excluded,pre-fix
 geant4_runs,heh1_deep_mfp5_10_20260906,excluded,pre-fix

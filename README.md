@@ -3,26 +3,26 @@
 Archive for the article "Fluorescence-Informed Surrogate Prediction of Gamma-Ray Buildup in Rare-Earth Hafnates", M. Al-Zaatreh et al., in preparation for Radiation Physics and Chemistry.
 Contact: mohammad.alzaatreh@gmail.com. The manuscript is not part of this repository.
 
-## Files (release v3)
+## Files (release v4)
 
 | File | Contents |
 |---|---|
-| `hafnate_surrogate_code_v3.tar.gz` | `AI_Haphinate/`: analysis, surrogate, cascade-model and figure scripts, material manifest; common to both articles of the study |
-| `hafnate_surrogate_validation_v3.tar.gz` | `AI_Haphinate/validation/`: protocols, registrations and amendments, evaluation outputs, labels, frozen models, predictions |
-| `hafnate_surrogate_geant4_runs_v3.tar.gz` | `BF/runs/`: Geant4 run records with seed- and campaign-level results, configurations, response tables and logs |
+| `hafnate_surrogate_code_v4.tar.gz` | `AI_Haphinate/`: analysis, surrogate, cascade-model and figure scripts, material manifest; common to both articles of the study |
+| `hafnate_surrogate_validation_v4.tar.gz` | `AI_Haphinate/validation/`: protocols, registrations and amendments, evaluation outputs, labels, frozen models, predictions |
+| `hafnate_surrogate_geant4_runs_v4.tar.gz` | `BF/runs/`: Geant4 run records with seed- and campaign-level results, configurations, response tables and logs |
 | `INDEX.csv` | Every analysis and run directory of the study: in this archive, in the companion archive `hafnate-deep-window-article`, or left out with the reason |
 | `SHA256SUMS` | Checksums of the three tarballs; each tarball also contains a per-file SHA-256 manifest |
 
 The tarballs extract into one tree, `AI_Haphinate/` and `BF/runs/`:
 
 ```
-tar xzf hafnate_surrogate_code_v3.tar.gz
-tar xzf hafnate_surrogate_validation_v3.tar.gz
-tar xzf hafnate_surrogate_geant4_runs_v3.tar.gz
+tar xzf hafnate_surrogate_code_v4.tar.gz
+tar xzf hafnate_surrogate_validation_v4.tar.gz
+tar xzf hafnate_surrogate_geant4_runs_v4.tar.gz
 sha256sum -c SHA256SUMS
 ```
 
-Source revisions: AI_Haphinate e3a0ffaee953e8c42d0c65e164b0eea9793a9aa9; BF Geant4 application 617d960b43a77595479bd2bd9d73e13060b47229, not archived.
+Source revisions: AI_Haphinate 2b7a90f54ea24d2a28a6e90eeb1c5a8b1f512a8c; BF Geant4 application 617d960b43a77595479bd2bd9d73e13060b47229, not archived.
 
 ## Scope
 
