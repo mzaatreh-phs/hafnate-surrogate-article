@@ -57,4 +57,4 @@ in the release tarballs only.
 
 ## Licence
 
-To be stated before publication.
+MIT License, see `LICENSE`. It covers the code, data, models and archives of this repository, including the files of the release tarballs.
