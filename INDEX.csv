@@ -35,6 +35,10 @@ validation,penred_pair_20261011,included,"PenRed check of one Zeq-matched K-edge
 validation,prospective_kedge_20261011,included,Prospective K-edge test of the frozen networks: evaluation (run once)
 validation,bearden_check_20261013,included,"Bearden line-energy check, 0.1 MeV, 0.5 to 4 mfp (2026-10-13)"
 validation,followup_20261013,included,"Additional calculations after the 2026-10-12 assessment (written before the runs, 2026-10-13)"
+validation,ablation_20261014,included,"Input ablation of the network, nested leave-one-material-out, 40 compositions (post hoc, descriptive)"
+validation,ar_swap_20261014,included,"Matched-pair A_R swaps in the frozen four-input network, 0.1 MeV (post hoc, descriptive)"
+validation,gp_baseline_20261014,included,"Practitioner baseline: ANS-6.4.3 G-P with Zeq, beside the frozen networks (post hoc, descriptive)"
+validation,thickness_example_20261014,included,"Shield thickness for a fixed reduction at 0.1 MeV, infinite-medium point kernel (post hoc, descriptive)"
 validation,ai_discovery_20260909,excluded,pre-fix exploratory study
 validation,ai_discovery_20260909_v2,excluded,pre-fix exploratory study
 validation,bf_results,excluded,pre-fix labels
