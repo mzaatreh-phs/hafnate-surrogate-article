@@ -27,7 +27,7 @@ Source revisions: AI_Haphinate 8af4af657292dbea21e1ab103ea069e701a54cce; BF Gean
 ## Browsable files in this repository
 
 Besides the release tarballs, the following files can be read directly here. They are extracted from the same
-sources as release v4 by `AI_Haphinate/scripts/export_repo_files.py`.
+sources as release v5 by `AI_Haphinate/scripts/export_repo_files.py`.
 
 | Path | Contents |
 |---|---|
