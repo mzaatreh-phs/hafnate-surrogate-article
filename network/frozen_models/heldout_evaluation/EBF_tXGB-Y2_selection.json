@@ -1,0 +1,82 @@
+{
+ "target": "EBF",
+ "model": "tXGB-Y2",
+ "columns": [
+  "log10_E_MeV",
+  "depth_mfp",
+  "Zeq_epics",
+  "log_mu",
+  "EK_mean",
+  "mek_mean",
+  "EK_min",
+  "mek_min",
+  "EK_max",
+  "mek_max"
+ ],
+ "chosen": {
+  "max_depth": 5,
+  "learning_rate": 0.1,
+  "min_child_weight": 1,
+  "inner_loss": 7.445516803108382e-05,
+  "trees": 323
+ },
+ "grid": [
+  {
+   "max_depth": 3,
+   "learning_rate": 0.03,
+   "min_child_weight": 1,
+   "inner_loss": 8.05092649590877e-05,
+   "trees": 1497
+  },
+  {
+   "max_depth": 3,
+   "learning_rate": 0.03,
+   "min_child_weight": 5,
+   "inner_loss": 8.637649152557335e-05,
+   "trees": 1499
+  },
+  {
+   "max_depth": 3,
+   "learning_rate": 0.1,
+   "min_child_weight": 1,
+   "inner_loss": 7.776081545081943e-05,
+   "trees": 846
+  },
+  {
+   "max_depth": 3,
+   "learning_rate": 0.1,
+   "min_child_weight": 5,
+   "inner_loss": 8.109439404833231e-05,
+   "trees": 967
+  },
+  {
+   "max_depth": 5,
+   "learning_rate": 0.03,
+   "min_child_weight": 1,
+   "inner_loss": 7.504094950618934e-05,
+   "trees": 893
+  },
+  {
+   "max_depth": 5,
+   "learning_rate": 0.03,
+   "min_child_weight": 5,
+   "inner_loss": 7.927746708382362e-05,
+   "trees": 1006
+  },
+  {
+   "max_depth": 5,
+   "learning_rate": 0.1,
+   "min_child_weight": 1,
+   "inner_loss": 7.445516803108382e-05,
+   "trees": 323
+  },
+  {
+   "max_depth": 5,
+   "learning_rate": 0.1,
+   "min_child_weight": 5,
+   "inner_loss": 7.872119148979106e-05,
+   "trees": 380
+  }
+ ],
+ "seconds": 64.74362897872925
+}

@@ -1,0 +1,86 @@
+{
+ "target": "EABF",
+ "model": "tXGB-P1",
+ "columns": [
+  "log10_E_MeV",
+  "depth_mfp",
+  "density_g_cm3",
+  "log_fluorescence_number_yield",
+  "fluorescence_energy_yield",
+  "log_yield_weighted_attenuation",
+  "log_yield_harmonic_attenuation",
+  "line_energy_mean_fraction",
+  "line_below_edge_fraction",
+  "line_edge_gap_mean_keV",
+  "line_edge_gap_abs_mean_keV",
+  "Hf_Kalpha_attenuation_ratio",
+  "Hf_Kbeta_attenuation_ratio",
+  "log_anchor"
+ ],
+ "chosen": {
+  "max_depth": 5,
+  "learning_rate": 0.1,
+  "min_child_weight": 5,
+  "inner_loss": 0.00011765135938466867,
+  "trees": 390
+ },
+ "grid": [
+  {
+   "max_depth": 3,
+   "learning_rate": 0.03,
+   "min_child_weight": 1,
+   "inner_loss": 0.0001796404948108112,
+   "trees": 1500
+  },
+  {
+   "max_depth": 3,
+   "learning_rate": 0.03,
+   "min_child_weight": 5,
+   "inner_loss": 0.00017983977688548216,
+   "trees": 1500
+  },
+  {
+   "max_depth": 3,
+   "learning_rate": 0.1,
+   "min_child_weight": 1,
+   "inner_loss": 0.00013648903418909784,
+   "trees": 1312
+  },
+  {
+   "max_depth": 3,
+   "learning_rate": 0.1,
+   "min_child_weight": 5,
+   "inner_loss": 0.00013470578406144163,
+   "trees": 1389
+  },
+  {
+   "max_depth": 5,
+   "learning_rate": 0.03,
+   "min_child_weight": 1,
+   "inner_loss": 0.00012742466255340315,
+   "trees": 1118
+  },
+  {
+   "max_depth": 5,
+   "learning_rate": 0.03,
+   "min_child_weight": 5,
+   "inner_loss": 0.00012962672374641386,
+   "trees": 999
+  },
+  {
+   "max_depth": 5,
+   "learning_rate": 0.1,
+   "min_child_weight": 1,
+   "inner_loss": 0.0001185664688844942,
+   "trees": 295
+  },
+  {
+   "max_depth": 5,
+   "learning_rate": 0.1,
+   "min_child_weight": 5,
+   "inner_loss": 0.00011765135938466867,
+   "trees": 390
+  }
+ ],
+ "seconds": 66.0480740070343
+}

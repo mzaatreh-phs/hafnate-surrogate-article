@@ -1,0 +1,95 @@
+{
+  "version": "2026-09-08",
+  "main_material": "HEH1",
+  "held_out_materials": [
+    "HEH1",
+    "CF_LNSEG",
+    "CF_YYHET",
+    "CF_LALU",
+    "CF_PRTM",
+    "CF_YG30",
+    "KT_GDDY",
+    "KT_ERY2",
+    "KT_EUGD",
+    "KT_YBY4",
+    "KT_PREU",
+    "KT_YBY5",
+    "KT_LAND",
+    "KT_TMY6",
+    "KT_EUY4",
+    "KT_ERY6",
+    "KT_SMY4",
+    "KT_LUY7"
+  ],
+  "target_role": "held-out shielding case study; previously used for transport development",
+  "blind_prospective_claim": false,
+  "shielding_novelty_status": "requires documented literature verification",
+  "primary_labels": "quality-controlled Geant4",
+  "gp_labels": "separate surrogate experiment or external comparison",
+  "training_label_relative_error_target": 0.05,
+  "exploratory_relative_error_threshold": 0.1,
+  "full_production_ready": false,
+  "blockers": [
+    "legacy BF provenance and uncertainty",
+    "validated material response coefficients for all training compositions",
+    "expanded corrected transport validation"
+  ],
+  "confirmatory_materials": [
+    "CF_LNSEG",
+    "CF_YYHET",
+    "CF_LALU",
+    "CF_PRTM",
+    "CF_YG30"
+  ],
+  "confirmatory_note": "Pre-registered 2026-09-27 (validation/confirmatory_design_20260927); labelled once, predicted once by frozen surrogate v3.1; no model change afterwards.",
+  "kedge_test_materials": {
+    "KT_GDDY": {
+      "pair": "P1",
+      "cls": "absorber"
+    },
+    "KT_ERY2": {
+      "pair": "P1",
+      "cls": "transmitter"
+    },
+    "KT_EUGD": {
+      "pair": "P2",
+      "cls": "absorber"
+    },
+    "KT_YBY4": {
+      "pair": "P2",
+      "cls": "transmitter"
+    },
+    "KT_PREU": {
+      "pair": "P3",
+      "cls": "absorber"
+    },
+    "KT_YBY5": {
+      "pair": "P3",
+      "cls": "transmitter"
+    },
+    "KT_LAND": {
+      "pair": "P4",
+      "cls": "absorber"
+    },
+    "KT_TMY6": {
+      "pair": "P4",
+      "cls": "transmitter"
+    },
+    "KT_EUY4": {
+      "pair": "C1",
+      "cls": "absorber"
+    },
+    "KT_ERY6": {
+      "pair": "C1",
+      "cls": "transmitter"
+    },
+    "KT_SMY4": {
+      "pair": "C2",
+      "cls": "absorber"
+    },
+    "KT_LUY7": {
+      "pair": "C2",
+      "cls": "transmitter"
+    }
+  }
+}

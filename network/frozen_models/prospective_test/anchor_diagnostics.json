@@ -1,0 +1,235 @@
+{
+ "settings": [
+  {
+   "material": "PK_P1A",
+   "settings": [
+    {
+     "energy_MeV": 0.1,
+     "refinement": 2,
+     "nodes": 525,
+     "lines": 150,
+     "adjacent_max_relative": 0.0001388478282531888,
+     "lower_radius_MFP": 1e-06,
+     "regular_order": 16,
+     "singular_order": 64
+    }
+   ],
+   "wall_s": 36.894044562999625
+  },
+  {
+   "material": "PK_P1T",
+   "settings": [
+    {
+     "energy_MeV": 0.1,
+     "refinement": 2,
+     "nodes": 525,
+     "lines": 110,
+     "adjacent_max_relative": 0.00014120973894623398,
+     "lower_radius_MFP": 1e-06,
+     "regular_order": 16,
+     "singular_order": 64
+    }
+   ],
+   "wall_s": 42.90384954097681
+  },
+  {
+   "material": "PK_P2A",
+   "settings": [
+    {
+     "energy_MeV": 0.1,
+     "refinement": 2,
+     "nodes": 525,
+     "lines": 146,
+     "adjacent_max_relative": 0.00014484466414922136,
+     "lower_radius_MFP": 1e-06,
+     "regular_order": 16,
+     "singular_order": 64
+    }
+   ],
+   "wall_s": 54.42727606999688
+  },
+  {
+   "material": "PK_P2T",
+   "settings": [
+    {
+     "energy_MeV": 0.1,
+     "refinement": 2,
+     "nodes": 525,
+     "lines": 107,
+     "adjacent_max_relative": 0.00014063138142178568,
+     "lower_radius_MFP": 1e-06,
+     "regular_order": 16,
+     "singular_order": 64
+    }
+   ],
+   "wall_s": 33.08647787300288
+  },
+  {
+   "material": "PK_P3A",
+   "settings": [
+    {
+     "energy_MeV": 0.1,
+     "refinement": 2,
+     "nodes": 525,
+     "lines": 150,
+     "adjacent_max_relative": 0.00014098936871053398,
+     "lower_radius_MFP": 1e-06,
+     "regular_order": 16,
+     "singular_order": 64
+    }
+   ],
+   "wall_s": 36.798580311005935
+  },
+  {
+   "material": "PK_P3T",
+   "settings": [
+    {
+     "energy_MeV": 0.1,
+     "refinement": 2,
+     "nodes": 525,
+     "lines": 107,
+     "adjacent_max_relative": 0.0001407097484474648,
+     "lower_radius_MFP": 1e-06,
+     "regular_order": 16,
+     "singular_order": 64
+    }
+   ],
+   "wall_s": 49.594725409988314
+  },
+  {
+   "material": "PK_P4A",
+   "settings": [
+    {
+     "energy_MeV": 0.1,
+     "refinement": 2,
+     "nodes": 525,
+     "lines": 150,
+     "adjacent_max_relative": 0.00014700568577068898,
+     "lower_radius_MFP": 1e-06,
+     "regular_order": 16,
+     "singular_order": 64
+    }
+   ],
+   "wall_s": 36.156622114009224
+  },
+  {
+   "material": "PK_P4T",
+   "settings": [
+    {
+     "energy_MeV": 0.1,
+     "refinement": 2,
+     "nodes": 525,
+     "lines": 107,
+     "adjacent_max_relative": 0.00013948000711248753,
+     "lower_radius_MFP": 1e-06,
+     "regular_order": 16,
+     "singular_order": 64
+    }
+   ],
+   "wall_s": 49.161707919003675
+  },
+  {
+   "material": "PK_M1",
+   "settings": [
+    {
+     "energy_MeV": 0.1,
+     "refinement": 2,
+     "nodes": 525,
+     "lines": 107,
+     "adjacent_max_relative": 0.00013535686975407412,
+     "lower_radius_MFP": 1e-06,
+     "regular_order": 16,
+     "singular_order": 64
+    }
+   ],
+   "wall_s": 29.36417819399503
+  },
+  {
+   "material": "PK_M2",
+   "settings": [
+    {
+     "energy_MeV": 0.1,
+     "refinement": 2,
+     "nodes": 525,
+     "lines": 150,
+     "adjacent_max_relative": 0.000151595923850902,
+     "lower_radius_MFP": 1e-06,
+     "regular_order": 16,
+     "singular_order": 64
+    }
+   ],
+   "wall_s": 38.06170475902036
+  },
+  {
+   "material": "PK_H1",
+   "settings": [
+    {
+     "energy_MeV": 0.1,
+     "refinement": 2,
+     "nodes": 525,
+     "lines": 150,
+     "adjacent_max_relative": 0.00014965531291172572,
+     "lower_radius_MFP": 1e-06,
+     "regular_order": 16,
+     "singular_order": 64
+    }
+   ],
+   "wall_s": 55.70269839998218
+  },
+  {
+   "material": "PK_H2",
+   "settings": [
+    {
+     "energy_MeV": 0.1,
+     "refinement": 2,
+     "nodes": 525,
+     "lines": 107,
+     "adjacent_max_relative": 0.00014575487187190253,
+     "lower_radius_MFP": 1e-06,
+     "regular_order": 16,
+     "singular_order": 64
+    }
+   ],
+   "wall_s": 31.681986810988747
+  },
+  {
+   "material": "KT_LAND",
+   "settings": [
+    {
+     "energy_MeV": 0.1,
+     "refinement": 2,
+     "nodes": 525,
+     "lines": 146,
+     "adjacent_max_relative": 0.00013777638622910365,
+     "lower_radius_MFP": 1e-06,
+     "regular_order": 16,
+     "singular_order": 64
+    }
+   ],
+   "wall_s": 35.613797178986715
+  },
+  {
+   "material": "KT_TMY6",
+   "settings": [
+    {
+     "energy_MeV": 0.1,
+     "refinement": 2,
+     "nodes": 525,
+     "lines": 107,
+     "adjacent_max_relative": 0.00013950288059376344,
+     "lower_radius_MFP": 1e-06,
+     "regular_order": 16,
+     "singular_order": 64
+    }
+   ],
+   "wall_s": 32.58785050199367
+  }
+ ],
+ "pipeline_check": {
+  "materials": [
+   "KT_LAND",
+   "KT_TMY6"
+  ],
+  "worst_relative_difference": 4.440892098500626e-16
+ }
+}

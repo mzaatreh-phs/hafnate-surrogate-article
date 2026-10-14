@@ -1,0 +1,152 @@
+{
+ "target": "EBF",
+ "model": "MLP-Y2",
+ "columns": [
+  "log10_E_MeV",
+  "depth_mfp",
+  "Zeq_epics",
+  "log_mu",
+  "EK_mean",
+  "mek_mean",
+  "EK_min",
+  "mek_min",
+  "EK_max",
+  "mek_max"
+ ],
+ "chosen": {
+  "width": 128,
+  "depth": 3,
+  "wd": 1e-05,
+  "inner_loss": 0.0008190294145606458,
+  "epochs": 219
+ },
+ "grid": [
+  {
+   "width": 32,
+   "depth": 2,
+   "wd": 1e-05,
+   "inner_loss": 0.0026281705126166345,
+   "epochs": 211
+  },
+  {
+   "width": 32,
+   "depth": 2,
+   "wd": 0.0001,
+   "inner_loss": 0.002628684579394758,
+   "epochs": 211
+  },
+  {
+   "width": 32,
+   "depth": 2,
+   "wd": 0.001,
+   "inner_loss": 0.002632053126581013,
+   "epochs": 211
+  },
+  {
+   "width": 32,
+   "depth": 3,
+   "wd": 1e-05,
+   "inner_loss": 0.0011458923807367682,
+   "epochs": 253
+  },
+  {
+   "width": 32,
+   "depth": 3,
+   "wd": 0.0001,
+   "inner_loss": 0.0011464449809864164,
+   "epochs": 253
+  },
+  {
+   "width": 32,
+   "depth": 3,
+   "wd": 0.001,
+   "inner_loss": 0.0011505714734084903,
+   "epochs": 253
+  },
+  {
+   "width": 64,
+   "depth": 2,
+   "wd": 1e-05,
+   "inner_loss": 0.0010295071173459292,
+   "epochs": 258
+  },
+  {
+   "width": 64,
+   "depth": 2,
+   "wd": 0.0001,
+   "inner_loss": 0.0010299286106601358,
+   "epochs": 258
+  },
+  {
+   "width": 64,
+   "depth": 2,
+   "wd": 0.001,
+   "inner_loss": 0.0010331301717087626,
+   "epochs": 258
+  },
+  {
+   "width": 64,
+   "depth": 3,
+   "wd": 1e-05,
+   "inner_loss": 0.0010450826957821846,
+   "epochs": 244
+  },
+  {
+   "width": 64,
+   "depth": 3,
+   "wd": 0.0001,
+   "inner_loss": 0.001045521069318056,
+   "epochs": 244
+  },
+  {
+   "width": 64,
+   "depth": 3,
+   "wd": 0.001,
+   "inner_loss": 0.0010487178922630846,
+   "epochs": 244
+  },
+  {
+   "width": 128,
+   "depth": 2,
+   "wd": 1e-05,
+   "inner_loss": 0.000848628010135144,
+   "epochs": 243
+  },
+  {
+   "width": 128,
+   "depth": 2,
+   "wd": 0.0001,
+   "inner_loss": 0.0008488984312862158,
+   "epochs": 243
+  },
+  {
+   "width": 128,
+   "depth": 2,
+   "wd": 0.001,
+   "inner_loss": 0.000850923580583185,
+   "epochs": 243
+  },
+  {
+   "width": 128,
+   "depth": 3,
+   "wd": 1e-05,
+   "inner_loss": 0.0008190294145606458,
+   "epochs": 219
+  },
+  {
+   "width": 128,
+   "depth": 3,
+   "wd": 0.0001,
+   "inner_loss": 0.0008192463661544025,
+   "epochs": 219
+  },
+  {
+   "width": 128,
+   "depth": 3,
+   "wd": 0.001,
+   "inner_loss": 0.0008209205116145313,
+   "epochs": 219
+  }
+ ],
+ "seconds": 1069.2221205234528
+}
