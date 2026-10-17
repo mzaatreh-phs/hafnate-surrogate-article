@@ -1,6 +1,6 @@
-# Data and code: Fluorescence-Informed Surrogate Prediction of Gamma-Ray Buildup in Rare-Earth Hafnates
+# Data and code: Exposure and energy absorption buildup factors of rare-earth hafnates using Geant4 and a fluorescence-informed neural network
 
-Archive for the article "Fluorescence-Informed Surrogate Prediction of Gamma-Ray Buildup in Rare-Earth Hafnates", M. Al-Zaatreh et al., in preparation for Radiation Physics and Chemistry.
+Archive for the article "Exposure and energy absorption buildup factors of rare-earth hafnates using Geant4 and a fluorescence-informed neural network", M. Al-Zaatreh et al., in preparation for Radiation Physics and Chemistry.
 Contact: mohammad.alzaatreh@gmail.com. The manuscript is not part of this repository.
 
 ## Files (release v5)
