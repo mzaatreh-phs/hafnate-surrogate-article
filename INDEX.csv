@@ -1,93 +1,51 @@
-part,directory,status,description
-validation,buildup_train_20260925b,included,
-validation,benchmark_step2_20260925,included,"Step-2 development benchmark (40 materials, HEH1 excluded)"
-validation,heh1_holdout_20260925,included,
-validation,surrogate_v2_20260925,included,"Surrogate v2 development (40 materials, HEH1 excluded)"
-validation,confirmatory_design_20260927,included,Confirmatory test set (designed 2026-09-27)
-validation,confirmatory_result_20260927,included,"Confirmatory test result (evaluated once, 2026-09-27)"
-validation,response_20260927,"included, also in companion",
-validation,surrogate_v3_13E_20260927,included,"Surrogate v3 development (13 energies, 40 materials, HEH1 excluded)"
-validation,surrogate_v3_20260927,included,"Surrogate v3 development (11 energies, 40 materials, HEH1 excluded)"
-validation,composition_screen_20260928,included,Composition screen (2026-09-28)
-validation,deep_fluo_test_20260928,companion archive,"Deep fluorescence test result (evaluated once, 2026-09-28)"
-validation,fluo_model_20260928,"included, also in companion",Parameter-free fluorescence model vs Geant4 (2026-09-28)
-validation,kedge_test_20260928,included,"K-edge filter test result (evaluated once, 2026-09-28)"
-validation,mechanism_20260928,included,Mechanism study: the 0.1 MeV composition effect (2026-09-28)
-validation,response_20260928,"included, also in companion",
-validation,luh_atomic_data_20260929,companion archive,LUH atomic-data test result (evaluated once)
-validation,physics_surrogate_20260930,included,Physics-guided surrogate: exploratory development results
-validation,physics_surrogate_full_range_20260930,included,Common-range surrogate comparison: 0.1–5 MeV
-validation,cut_mechanism_20261002,included,"Origin of the EBF increase at a 0.001 mm cut: results (exploratory, 2026-10-02)"
-validation,cut_sensitivity_20261002,included,Production-cut sensitivity at 0.1 MeV: results (evaluated once)
-validation,deep_luh_validation_20261002,companion archive,Deep LUH validation: results (evaluated once)
-validation,fluo_model_corrected_20261002,"included, also in companion",Parameter-free fluorescence model vs Geant4 (2026-09-28)
-validation,lowE_pilot_20261002,excluded,"15 to 80 keV pilot, not used by either article"
-validation,stats_reanalysis_20261002,included,
-validation,highE_extension_20261003,"included, also in companion",Extension of the study to 15 MeV: plan (2026-10-03)
-validation,geant4_surrogate_comparison_20261006,included,
-validation,deep_profile_20261007,"included, also in companion","Deep HEH1 study, 0.1–15 MeV and 1–20 mfp: plan and recovery notes (written 2026-10-07)"
-validation,penred_kedge_20261007,"included, also in companion","Independent-code check of the K-edge window: PenRed (PENELOPE 2018 physics), 2026-10-07"
-validation,physics_existing_20261007,"included, also in companion","Physics from existing Geant4 outputs, 0.1-15 MeV (no new transport)"
-validation,blind_esgyp_20261008,"included, also in companion","Blind test results, HEH_ESGYP and HEH_LNTTL (evaluated 2026-10-09)"
-validation,line_shape_20261008,companion archive,"Natural line width in the Hf K-beta / Lu K edge window (exploratory, 2026-10-08)"
-validation,nn_tests_20261010,included,
-validation,penred_pair_20261011,included,"PenRed check of one Zeq-matched K-edge pair at 0.1 MeV (exploratory, 2026-10-11)"
-validation,prospective_kedge_20261011,included,Prospective K-edge test of the frozen networks: evaluation (run once)
-validation,bearden_check_20261013,included,"Bearden line-energy check, 0.1 MeV, 0.5 to 4 mfp (2026-10-13)"
-validation,followup_20261013,included,"Additional calculations after the 2026-10-12 assessment (written before the runs, 2026-10-13)"
-validation,ablation_20261014,included,"Input ablation of the network, nested leave-one-material-out, 40 compositions (post hoc, descriptive)"
-validation,ar_swap_20261014,included,"Matched-pair A_R swaps in the frozen four-input network, 0.1 MeV (post hoc, descriptive)"
-validation,gp_baseline_20261014,included,"Practitioner baseline: ANS-6.4.3 G-P with Zeq, beside the frozen networks (post hoc, descriptive)"
-validation,thickness_example_20261014,included,"Shield thickness for a fixed reduction at 0.1 MeV, infinite-medium point kernel (post hoc, descriptive)"
-validation,ai_discovery_20260909,excluded,pre-fix exploratory study
-validation,ai_discovery_20260909_v2,excluded,pre-fix exploratory study
-validation,bf_results,excluded,pre-fix labels
-validation,bf_results_dense,excluded,pre-fix labels
-validation,raw_mac_results_100k,excluded,pre-fix
-validation,raw_mac_results_full_grid,excluded,pre-fix
-validation,epics_results,partly included,pre-fix Geant4 comparisons; only the EpiXS G-P and Zeq tables (*_EBF/EABF_EPICS2017.csv) are included
-validation,response_20260908,excluded,"pre-fix response tables, superseded by response_20260927/28"
-validation,buildup_train_20260925,excluded,"incomplete run, superseded by buildup_train_20260925b"
-validation,codex_full_review_20260928,excluded,internal review log
-validation,codex_full_review_20261002,excluded,internal review log
-validation,deep_surrogate_codex_20260928,excluded,internal review log
-validation,novelty_20261007,excluded,internal planning
-validation,novelty_plan_20260928,excluded,internal planning
-validation,latest_work_assessment_20261002,excluded,internal assessment
-validation,study_audit_20260908,excluded,pre-fix internal audit
-geant4_runs,assessment_20260924,companion archive,
-geant4_runs,deep_ans_20260924,companion archive,"HEH1 deep buildup, 40 MFP, ANS-6.4.3 convention — 2026-09-24"
-geant4_runs,labels_pilot_20260924,included,
-geant4_runs,pb_benchmark_20260924,"included, also in companion",Lead (G4_Pb) benchmark vs ANSI/ANS-6.4.3 G-P — 2026-09-24
-geant4_runs,deep_final_20260925,companion archive,"HEH1 deep anchors, final — 2026-09-25"
-geant4_runs,deep_vr_20260925,companion archive,
-geant4_runs,labels_energy_20260925,included,
-geant4_runs,labels_prod_20260925,included,
-geant4_runs,labels_confirm_20260927,included,
-geant4_runs,labels_energy2_20260927,included,
-geant4_runs,deep_fluo_20260928,companion archive,
-geant4_runs,kedge_test_20260928,included,
-geant4_runs,mechanism_20260928,included,
-geant4_runs,mechanism_20260928b,included,
-geant4_runs,luh_atomic_data_20260929,companion archive,
-geant4_runs,cut_mechanism_20261002,included,
-geant4_runs,cut_sensitivity_20261002,included,
-geant4_runs,deep_luh_validation_20261002,companion archive,
-geant4_runs,heh1_deep_energies_20261002,companion archive,
-geant4_runs,lowE_pilot_20261002,excluded,"15 to 80 keV pilot, not used by either article"
-geant4_runs,highE_cut_20261003,included,
-geant4_runs,highE_labels_20261003,included,
-geant4_runs,profile_qual_20261007,companion archive,
-geant4_runs,blind_esgyp_20261008,"included, also in companion",
-geant4_runs,deep_labels_20261008,"included, also in companion",
-geant4_runs,heh1_profiles_20261008,"included, also in companion",
-geant4_runs,prospective_kedge_20261011,included,
-geant4_runs,followup_20261013,included,
-geant4_runs,bearden_check_20261013,included,
-geant4_runs,corrected_mfp40_20260831,excluded,pre-fix
-geant4_runs,codex_validation_20260906,excluded,pre-fix
-geant4_runs,heh1_deep_mfp5_10_20260906,excluded,pre-fix
-geant4_runs,deep_transport_20260907,excluded,pre-fix
-geant4_runs,response_20260908,excluded,pre-fix
-geant4_runs,deep_transport_20260924,excluded,"invalid 1.25 MeV / 40 mfp run, pre-fix binary"
-geant4_runs,s1_test_20260925,excluded,"different material, not in the paper"
+part,directory,description
+validation,nn_tests_20261010,
+validation,prospective_kedge_20261011,Prospective K-edge test of the frozen networks: evaluation (run once)
+validation,penred_pair_20261011,"PenRed check of one Zeq-matched K-edge pair at 0.1 MeV (exploratory, 2026-10-11)"
+validation,penred_kedge_20261007,"Independent-code check of the K-edge window: PenRed (PENELOPE 2018 physics), 2026-10-07"
+validation,followup_20261013,"Additional calculations after the 2026-10-12 assessment (written before the runs, 2026-10-13)"
+validation,bearden_check_20261013,"Bearden line-energy check, 0.1 MeV, 0.5 to 4 mfp (2026-10-13)"
+validation,gp_baseline_20261014,"Practitioner baseline: ANS-6.4.3 G-P with Zeq, beside the frozen networks (post hoc, descriptive)"
+validation,ablation_20261014,"Input ablation of the network, nested leave-one-material-out, 40 compositions (post hoc, descriptive)"
+validation,ar_swap_20261014,"Matched-pair A_R swaps in the frozen four-input network, 0.1 MeV (post hoc, descriptive)"
+validation,thickness_example_20261014,"Shield thickness for a fixed reduction at 0.1 MeV, infinite-medium point kernel (post hoc, descriptive)"
+validation,highE_extension_20261003,Extension of the study to 15 MeV: plan (2026-10-03)
+validation,surrogate_v3_13E_20260927,"Surrogate v3 development (13 energies, 40 materials, HEH1 excluded)"
+validation,surrogate_v3_20260927,"Surrogate v3 development (11 energies, 40 materials, HEH1 excluded)"
+validation,surrogate_v2_20260925,"Surrogate v2 development (40 materials, HEH1 excluded)"
+validation,benchmark_step2_20260925,"Step-2 development benchmark (40 materials, HEH1 excluded)"
+validation,buildup_train_20260925b,
+validation,kedge_test_20260928,"K-edge filter test result (evaluated once, 2026-09-28)"
+validation,confirmatory_design_20260927,Confirmatory test set (designed 2026-09-27)
+validation,confirmatory_result_20260927,"Confirmatory test result (evaluated once, 2026-09-27)"
+validation,heh1_holdout_20260925,
+validation,composition_screen_20260928,Composition screen (2026-09-28)
+validation,physics_surrogate_20260930,Physics-guided surrogate: exploratory development results
+validation,physics_surrogate_full_range_20260930,Common-range surrogate comparison: 0.1–5 MeV
+validation,blind_esgyp_20261008,"Blind test results, HEH_ESGYP and HEH_LNTTL (evaluated 2026-10-09)"
+validation,geant4_surrogate_comparison_20261006,
+validation,mechanism_20260928,Mechanism study: the 0.1 MeV composition effect (2026-09-28)
+validation,cut_sensitivity_20261002,Production-cut sensitivity at 0.1 MeV: results (evaluated once)
+validation,cut_mechanism_20261002,"Origin of the EBF increase at a 0.001 mm cut: results (exploratory, 2026-10-02)"
+validation,stats_reanalysis_20261002,
+validation,response_20260927,
+validation,response_20260928,
+validation,fluo_model_20260928,Parameter-free fluorescence model vs Geant4 (2026-09-28)
+validation,fluo_model_corrected_20261002,Parameter-free fluorescence model vs Geant4 (2026-09-28)
+validation,epics_results,EpiXS G-P buildup factors with EPICS2017 cross sections
+geant4_runs,labels_pilot_20260924,
+geant4_runs,labels_energy_20260925,
+geant4_runs,labels_prod_20260925,
+geant4_runs,labels_confirm_20260927,
+geant4_runs,labels_energy2_20260927,
+geant4_runs,highE_labels_20261003,
+geant4_runs,highE_cut_20261003,
+geant4_runs,kedge_test_20260928,
+geant4_runs,mechanism_20260928,
+geant4_runs,mechanism_20260928b,
+geant4_runs,cut_mechanism_20261002,
+geant4_runs,cut_sensitivity_20261002,
+geant4_runs,blind_esgyp_20261008,
+geant4_runs,prospective_kedge_20261011,
+geant4_runs,followup_20261013,
+geant4_runs,bearden_check_20261013,
