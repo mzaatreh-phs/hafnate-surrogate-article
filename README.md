@@ -1,6 +1,6 @@
 # Data and code: Fluorescence-Informed Surrogate Prediction of Gamma-Ray Buildup in Rare-Earth Hafnates
 
-Archive for the article "Fluorescence-Informed Surrogate Prediction of Gamma-Ray Buildup in Rare-Earth Hafnates", M. Al-Zaatreh and H. Alsenawi, submitted to Radiation Physics and Chemistry.
+Archive for the article "Fluorescence-Informed Surrogate Prediction of Gamma-Ray Buildup in Rare-Earth Hafnates", M. Al-Zaatreh and H. Alsenawi, submitted to Nuclear Engineering and Technology.
 Contact: mohammad.alzaatreh@gmail.com. The manuscript is not part of this repository.
 
 ## Files (release v6)
