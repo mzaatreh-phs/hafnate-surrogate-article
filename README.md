@@ -3,7 +3,7 @@
 Archive for the article "Fluorescence-Informed Surrogate Prediction of Gamma-Ray Buildup in Rare-Earth Hafnates", M. Al-Zaatreh and H. Alsenawi, submitted to Nuclear Engineering and Technology.
 Contact: mohammad.alzaatreh@gmail.com. The manuscript is not part of this repository.
 
-## Files (release v6)
+## Files (release v7; the archives are the same as in v6)
 
 | File | Contents |
 |---|---|
@@ -27,7 +27,7 @@ Source revisions: AI_Haphinate d9fbacc18dc523a90c79cc9b5af442541f00642c; BF Gean
 ## Browsable files in this repository
 
 Besides the release tarballs, the following files can be read directly here. They are extracted from the same
-sources as release v6 by `AI_Haphinate/scripts/export_repo_files.py`.
+sources as releases v6 and v7 by `AI_Haphinate/scripts/export_repo_files.py`.
 
 | Path | Contents |
 |---|---|
